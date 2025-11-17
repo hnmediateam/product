@@ -147,3 +147,60 @@ body {
         padding-top: 160px !important;
     }
 }
+/* Button group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+/* DEMO button */
+.demo-btn {
+    background: #ffffff;
+    border: 2px solid #7a3fa0;
+    padding: 10px 18px;
+    color: #7a3fa0;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.demo-btn:hover {
+    background: #7a3fa0;
+    color: white;
+}
+
+/* MUA NGAY giữ nguyên */
+.buy-btn {
+    display: inline-block;
+    background: #7a3fa0;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.buy-btn:hover {
+    opacity: 0.85;
+}
+/* Ảnh bằng nhau */
+.product-card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Tiêu đề bằng nhau */
+.product-card h3 {
+    min-height: 45px;  
+}
+
+/* Mô tả bằng nhau */
+.product-card p {
+    min-height: 60px;
+}
+/* fksjdhfksjdhgfkjdsfhgkjshdfkgjhskjfg */
+
